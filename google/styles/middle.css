@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+

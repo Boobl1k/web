@@ -1,0 +1,46 @@
+.header {
+    display        : flex;
+    height         : 48px;
+    justify-content: flex-end;
+    align-items    : center;
+    margin         : 6px;
+}
+
+a {
+    height         : 24px;
+    top            : 50%;
+    color          : black;
+    text-decoration: none;
+    font-style     : normal;
+    font-weight    : 400;
+    color          : rgba(0, 0, 0, 0.87);
+    font           : 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+    font-family    : arial, sans-serif;
+
+    line-height   : 24px;
+    vertical-align: middle;
+}
+
+path {
+    color: black;
+}
+
+.toolsSvg {
+    fill        : rgb(95, 99, 104);
+    width       : 24px;
+    height      : 24px;
+    margin-right: 20px;
+}
+
+.avatar {
+    border-radius: 10000px;
+    margin-right : 12;
+}
+
+.pics {
+    margin-right: 27px;
+}
+
+.mail {
+    margin-right: 15px;
+}

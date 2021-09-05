@@ -1,0 +1,11 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    margin : 0 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+}

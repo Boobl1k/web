@@ -1,0 +1,62 @@
+.buttom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+}
+
+.country{
+    height: 17px;
+    width: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.buttomElements{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #70757a;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttomElements div{
+    padding: 15px 0;
+    display: flex;
+}
+
+.buttomElements a{
+    text-decoration: none;
+    color:currentColor;
+    padding: 0 15px;
+    white-space: nowrap;
+    display: block;
+}
+
+.buttom1{
+    height: 16px;
+    min-width: 30%;
+}
+.buttom2{
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+}
+
+.buttom2 a{
+    padding: 0;
+}
+
+.buttom3{
+    height: 16px;
+    min-width: 30%;
+    justify-content: flex-end;
+}

@@ -18,11 +18,58 @@
     margin-top: 26px;
     display: flex;
     align-items: center;
-
+    padding-left: 14px;
 }
 .searchSvg{
     fill: rgb(154,160,166);
     transform-origin: 0px 0px;
-    line-height: 24px;
+    line-height: 24px;   
+}
+.searchInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+    width: 447px;
+    margin-right: 11.5px;
+}
+
+.micSvg{
+    transform-origin: 0px 0px;
+    line-height: 24px;   
+    height: 24px;
+    width: 24px;
+    margin-left: 18px;
+    margin-right: 16px;
+}
+
+.suggests{
+    margin-top: 18px;
+}
+
+.suggestInput{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
     
+}
+
+.languages{
+    margin-top: 18px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #3c4043;
+    height: 28px;
 }

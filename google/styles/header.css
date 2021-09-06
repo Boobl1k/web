@@ -1,9 +1,11 @@
 .header {
     display        : flex;
     height         : 48px;
+    width: 100%;
     justify-content: flex-end;
     align-items    : center;
     margin         : 6px;
+    padding-right: 12px;
 }
 
 a {

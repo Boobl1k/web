@@ -7,3 +7,22 @@
     height: calc(100% - 560px);
 }
 
+.search{
+    height: 44px;
+    width: auto;
+    max-width: 584px;
+    min-width: 100px;
+    border-radius: 24px;
+    border-color: black;
+    border: 1px solid #dfe1e5;
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+
+}
+.searchSvg{
+    fill: rgb(154,160,166);
+    transform-origin: 0px 0px;
+    line-height: 24px;
+    
+}

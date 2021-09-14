@@ -1,0 +1,21 @@
+#main {
+    display: flex;
+    flex-flow: row;
+}
+
+#images {
+    background-image: url("https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png");
+    width           : 303px;
+    height          : 519px;
+    padding         : 99 0 0 151;
+}
+
+#screenImg {
+    position: absolute;
+}
+
+#loginWindow{
+    width: 348;
+    height: 358;
+    border: 1px solid rgba(219,219,219,1);
+}

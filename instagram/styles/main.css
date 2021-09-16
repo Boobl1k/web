@@ -113,6 +113,57 @@
     color: rgba(var(--f52,142,142,142),1);
 }
 
+#facebookContainer{
+    margin-top: 28px;
+    height: 20px;
+    width: 268px;
+    display: flex;
+    justify-content: center;
+}
+
+#facebookLogo{
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+}
+
+#facebookText{
+    margin-left: 8px;
+    color: #385185;
+    vertical-align: baseline;
+    font: inherit;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    line-height: 15px;
+}
+
+#forgotPass{
+    margin-top: 16px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+}
+
+#registerWindow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noAcc{
+
+}
+
+#register{
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    margin-left: 4px;
+}
+
 #downloadText {
     height         : 18px;
     padding-top    : 10px;
@@ -138,10 +189,4 @@
 #buttomContainer {
     height: 153px;
     width : calc(100% - 32px);
-}
-
-#buttom {
-    height          : 99px;
-    background-color: red;
-    margin-bottom   : 52px;
 }

@@ -1,12 +1,25 @@
-#buttom {
-    height          : 99px;
+#buttomContainer{
+    display: flex;
+    justify-content: center;
+}
+#buttomCollection {
+    height          : 66px;
     margin-bottom   : 52px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    width: min(100%, 800px);
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(var(--f52,142,142,142),1);
 }
 
 .buttomElement{
     height: 14px;
+    margin: 0 4px;
+}
+
+#buttomAddIfo{
+    height: 33px;
 }
